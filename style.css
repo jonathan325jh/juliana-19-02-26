@@ -30,7 +30,81 @@ body{
     padding-top: 3em;
     border: solid 1px black;
     border-radius: 20px;
-    height: 20vh;
+    height: 40vh;
     width: 50%;
     align-items: center;
+    font-size: 20px;
+}
+
+#ai{
+    margin-right: 10em;
+    color: orange;
+    display: inline-block; 
+    gap: 3px;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.links{
+    background-color: rgb(159, 225, 255);
+    height: 5vh;
+    padding-top: 5px;
+    text-align: center;
+    word-spacing: 30em;
+}
+
+#linka:hover{
+    color: rgb(133, 141, 253);
+}
+
+#linka{
+    color: rgb(90, 5, 169);
+    font-size: 25px;
+}
+
+a:hover{
+   color: brown;
+}
+
+.ponto{
+   gap: 30px;
+   margin-right: 20em;
+   padding-top: 20px;
+   display: inline-block;
+}
+
+#para2{
+    margin-left: 1em;
+}
+
+#para3{
+margin-left: 0.5em;
+}
+
+#pao{
+    margin-left: 2em;
+    margin-top: 10px;
+    color: rgb(245, 14, 126);
+
+}
+
+button{
+    color: white;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 5vh;
+    border: none;
+    width: 50%;
+    background-color: rgb(56, 97, 86);
+    border-radius: 6%;
+    cursor: pointer;
+
+}
+
+
+button:hover{
+    background-color: aquamarine;
 }
