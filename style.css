@@ -26,7 +26,7 @@ body{
 
 .endereco{
     text-align: center;
-    margin: 5em auto;
+    margin: 2em auto;
     padding-top: 3em;
     border: solid 1px black;
     border-radius: 20px;
@@ -99,7 +99,7 @@ button{
     border: none;
     width: 50%;
     background-color: rgb(56, 97, 86);
-    border-radius: 6%;
+    border-radius: 10px;
     cursor: pointer;
 
 }
@@ -118,3 +118,108 @@ button:hover{
     font-size: 25px;
 }
 
+.endereco2{
+    text-align: center;
+    margin-top: 2em;
+    font-size: 25px;
+    border: solid 1px black;
+    border-radius: 15px;
+    height: 17vh;
+    padding-top: 30px;
+}
+
+#ai3{
+    display: inline-block; 
+    margin-left: 290px;
+}
+
+#ai4{
+    display: inline-block;
+    padding-left: 9.5em;
+    margin-right: 11em;
+}
+
+#tane{
+    margin-left: 15px;
+}
+
+.container2{
+    display: flex;
+    margin-top: 2em;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    width: 55%;
+    display: left;
+    margin-left: 20em;
+    
+}
+
+.retangulo, .retangulo1, .retangulo2{
+    padding-top: 30px;
+    display: inline-block;
+    height: 30vh;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(97, 155, 255);
+    cursor: pointer;
+    color: white;
+}
+
+.retangulo1{
+    width: 57%;
+}
+
+#paragrafo{
+   color: rgb(73, 255, 73);
+   display: inline-block;
+}
+
+#retirada{
+    color: rgb(255, 251, 0);
+}
+
+#retirada, #paragrafo{
+    margin-top: 10px;
+}
+
+.retangulo:hover, .retangulo1:hover, .retangulo2:hover{
+     transform: scale(1.1);
+}
+
+.retangulo:active, .retangulo1:active, .retangulo2:active{
+    border: solid 2px blue;
+}
+
+.ponto2{
+    gap: 30px;
+   text-align: center;
+   margin-left: 33em;
+   padding-top: 2em;
+   display: inline-block;
+}
+
+#ponto3, #ponto4, #ponto5{
+    display: inline-block;
+    gap: 60px;
+    font-size: 20px;
+}
+
+#pao2{
+    margin-right: 20px;
+    margin-top: 5px;
+    color: rgb(245, 14, 126);
+}
+
+#ponto4{
+    margin-left: 0.5em;
+}
+
+#ponto5{
+    margin-left: 0.5em;
+}
+
+hr{
+    margin-top: 30px;
+    border: solid 1px black;
+}
