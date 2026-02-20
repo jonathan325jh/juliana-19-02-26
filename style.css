@@ -208,6 +208,7 @@ button:hover{
 #pao2{
     margin-right: 20px;
     margin-top: 5px;
+     font-size: 20px;
     color: rgb(245, 14, 126);
 }
 
@@ -222,4 +223,5 @@ button:hover{
 hr{
     margin-top: 30px;
     border: solid 1px black;
+
 }
